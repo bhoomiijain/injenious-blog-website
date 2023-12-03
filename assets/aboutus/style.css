@@ -1,0 +1,126 @@
+.container {
+  position: relative;
+}
+
+.container {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px
+} 
+
+.container:after,
+.container:before {
+  content: " ";
+  display: table
+}
+
+.container:after {
+  clear: both
+}
+
+ @media (min-width:768px) {
+  .container {
+      width: 750px
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+      width: 970px
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+      width: 1170px
+  }
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  color: rgb(145, 245, 245);
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.columnn {
+  margin-left: 24vw;
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.cardn {
+  box-shadow: 0 4px 8px 0 rgb(70, 63, 72);
+  margin: 8px;
+}
+
+.about-section {
+  margin-left: 4vw;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #85a7f0;
+  color: white;
+  border-radius: 30px;
+  width: 90%;
+}
+
+.containern {
+  padding: 0 16px;
+}
+
+.containern::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titlen {
+  color: grey;
+}
+
+.buttonn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(241, 255, 179);
+  background-color: #1760ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.buttonn:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .columnn {
+    width: 100%;
+    margin-left: 0vw;
+    display: block;
+  }
+  .about-section{
+    margin-left: 0vw;
+  }
+}
+
+table{
+  table-layout: fixed;
+}
+
+button.modal-button{
+  width: 90%; 
+}
